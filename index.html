@@ -1,2 +1,69 @@
-<p>Teste</p>
-<p>Teste2</p>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pedro Drivas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" onclick="home()" >Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-contato-tab" data-toggle="pill" href="#pills-contato" role="tab" aria-controls="pills-contato" aria-selected="false" onclick="contato()" >Contato</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-resumo-tab" data-toggle="pill" href="#pills-resumo" role="tab" aria-controls="pills-resumo" aria-selected="false" onclick="resumo()" >Resumo</a>
+        </li>
+        <li class="nav-item">
+                <a class="nav-link" id="pills-exp-tab" data-toggle="pill" href="#pills-exp" role="tab" aria-controls="pills-exp" aria-selected="false" onclick="exp()" >Experiência Profissional</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-formAcad-tab" data-toggle="pill" href="#pills-formAcad" role="tab" aria-controls="pills-formAcad" aria-selected="false" onclick="formAcad()">Formação Acadêmica</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-idioma-tab" data-toggle="pill" href="#pills-idioma" role="tab" aria-controls="pills-idioma" aria-selected="true" onclick="idioma()" >Idiomas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-habil-tab" data-toggle="pill" href="#pills-habil" role="tab" aria-controls="pills-habil" aria-selected="false" onclick="habil()">Habilidades</a>
+        </li>  
+        <li class="nav-item">
+            <a class="nav-link" id="pills-hobbies-tab" data-toggle="pill" href="#pills-hobbies" role="tab" aria-controls="pills-hobbies" aria-selected="false" onclick="hobbies()">Hobbies</a>
+        </li>    
+        <li class="nav-item">
+            <a class="nav-link" id="pills-next-tab" data-toggle="pill" href="#pills-next" role="tab" aria-controls="pills-next" aria-selected="false" onclick="next()">NEXT</a>
+        </li>                     
+    </ul>
+    <!--
+        <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">Conteudo Home</div>
+        <div class="tab-pane fade" id="pills-contato" role="tabpanel" aria-labelledby="pills-contato-tab">Conteudo Contato</div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+    </div>
+    -->
+
+    <br>
+
+    <section id="sec">
+        <div id='dados'>
+            Selecione os itens no menu acima para me conhecer melhor.
+        </div>
+        <div id='res'>
+
+        </div>
+    </section>
+
+    <footer>
+        <br>
+        <p>&copy;DrivaSolutions</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
